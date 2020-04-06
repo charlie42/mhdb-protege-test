@@ -21116,7 +21116,8 @@ xsd:string rdf:type owl:Class .
 ###  http://www.purl.org/mentalhealth/mhdb-resources#test_projec
 :test_projec rdf:type owl:NamedIndividual ,
                       :Project ;
-             :hasWebsite "test.website"^^xsd:anyURI .
+             :hasWebsite "test.website"^^xsd:anyURI ,
+                         "test2.website"^^xsd:anyURI .
 
 
 ###  http://www.purl.org/mentalhealth/mhdb-resources#10_Things_1_Autistic_Person_Wants_You_to_Accept
